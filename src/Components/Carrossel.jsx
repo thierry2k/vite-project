@@ -1,5 +1,5 @@
-import homem from "../Assets/images.png"
-
+import homem from "../Assets/SQ55.avif"
+import Crr from 
 export default function Carroseel() {
     return (
      <div id="carousel" className="carousel slide">

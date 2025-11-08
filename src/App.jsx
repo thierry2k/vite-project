@@ -1,10 +1,11 @@
 import homem from "./Assets/images.png"
 import Home from "./Views/Home";
 import Carros from "./Views/Carros";
+import Nav from "./Components/Nav";
 
 import CardComp from "./Components/CardComp";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';  //  ADICIONE ESTA LINHA
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';  
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
 
@@ -13,10 +14,7 @@ function App() {
     return (
         <BrowserRouter>
             {/* Navigation */}
-            <nav>
-                <Link to="/">Home</Link> |{" "}
-                <Link to="/Carros">Carros</Link> |{" "}
-            </nav>
+            <Nav/>
 
             {/* Routes */}
             <Routes>
