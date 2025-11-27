@@ -1,4 +1,4 @@
-import homem from "./Assets/images.png"
+import homem from "./Assets/SQ55.avif"
 import Home from "./Views/Home";
 import Carros from "./Views/Carros";
 import Nav from "./Components/Nav";
@@ -19,7 +19,8 @@ function App() {
             {/* Routes */}
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/Carros" element={<Carros />} />
+                <Route path="/Modelos" element={<Carros />} />
+                
             </Routes>
         </BrowserRouter>
     );
@@ -27,26 +28,4 @@ function App() {
 }
 export default App
 
-export function CarosselCompo() {
-    return (
-        <div id="carousel" className="carousel slide">
-            <div className="carousel-inner">
-                <div className="carousel-item active">
-                    <img src={homem} className="d-block w-10" alt="..." />
-                </div>
-                <div className="carousel-item">
-                    <img src={homem} className="d-block w-1" alt="" />
-                </div>
-            </div>
 
-            <button className="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Previous</span>
-            </button>
-            <button className="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Next</span>
-            </button>
-        </div>
-    );
-}

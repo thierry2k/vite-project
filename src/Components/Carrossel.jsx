@@ -1,5 +1,6 @@
 import homem from "../Assets/SQ55.avif"
-import Crr from 
+
+
 export default function Carroseel() {
     return (
      <div id="carousel" className="carousel slide">
@@ -21,5 +22,7 @@ export default function Carroseel() {
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>
-    );
+            
+    )
 }
+
