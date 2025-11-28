@@ -52,7 +52,7 @@ export default function Nav() {
                 <a className="nav-link fw-medium" href="/modelos">Modelos</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link fw-medium" href="/comprar">Comprar</a>
+                <a className="nav-link fw-medium" href="/comprar">Historia</a>
               </li>
             </ul>
 

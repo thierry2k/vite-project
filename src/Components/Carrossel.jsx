@@ -3,7 +3,8 @@ import homem from "../Assets/SQ55.avif"
 
 export default function Carroseel() {
     return (
-     <div id="carousel" className="carousel slide">
+     <div 
+     id="carousel" className="carousel slide">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img src={homem} className="d-block w-10" alt="..." />

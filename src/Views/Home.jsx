@@ -8,9 +8,10 @@ export default function Home() {
   return (
     <>
       <main>
+        <h1>audi</h1>
         <Carroseel/>
         
-        <Carroseel/>
+       
       </main>
     </>
   )
