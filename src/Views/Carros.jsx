@@ -6,6 +6,7 @@ export default function Carros() {
     <h1></h1>
     <main>
     <CardComp></CardComp>
+    
     </main>
     </>
   );

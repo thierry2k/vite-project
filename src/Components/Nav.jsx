@@ -49,7 +49,7 @@ export default function Nav() {
           <div className="collapse navbar-collapse" id="navbarContent">
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link fw-medium" href="/modelos">Modelos</a>
+                <a className="nav-link fw-medium" href="/modelos"></a>
               </li>
               <li className="nav-item">
                 <a className="nav-link fw-medium" href="/comprar">Historia</a>

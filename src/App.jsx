@@ -19,13 +19,15 @@ function App() {
             {/* Routes */}
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/Modelos" element={<Carros />} />
+                <Route path="" element={<Carros />} />
                 
             </Routes>
         </BrowserRouter>
     );
 
 }
+
 export default App
+
 
 
